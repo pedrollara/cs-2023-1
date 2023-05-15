@@ -40,3 +40,14 @@ https://github.com/caelum/caelum-stella
 
 ## SexoValidator.java
 * Ver "Para EstadoCivilValidator.java", recomendações aqui serão similares.
+
+# Revisão de testes
+
+## Para todos os arquivos em test/java/org/test/alunos/**.java:
+* Os dados de input poderiam estar todos num único arquivo em .json ou .xml. A utilização de pastas separadas para cada teste com o nome dos envolvidos é completamente redundante e desnecessário.
+
+## Para os arquivos test/java/org/test/gilmar<de Cliente.Java a EstadoCivil.java em ordem alfabética>
+* Os testes e expectativas de resultado estão corretos.
+
+## Para os arquivos test/java/org/test/gilmar<de IdadeTest.java a SexoTest.java em ordem alfabética>
+* Estes estão vazios e deverão ser preenchidos ou ao menos avisos deverão ser colocados em forma de TODO para o vscode ou outros que sejam reconhecidos pela IDE em questão, de forma a lembrar os usuários de que tais arquivos ainda não implementam os testes que deveriam
