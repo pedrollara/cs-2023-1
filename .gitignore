@@ -1,0 +1,7 @@
+# .gitignore nodejs
+
+
+
+node_modules
+dist
+yarn.lock
